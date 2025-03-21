@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Boldonse&display=swap');
+*{     margin: 0;
+    text-align: center;}
+
+
+body{
+        font-family: "Barriecito", system-ui;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+
+
+#input{
+    background-image: url(https://cdn.pixabay.com/photo/2024/04/20/16/31/asian-bleeding-heart-8709065_1280.jpg);
+     background-size: cover; 
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 50vh;
+    color: rgb(244, 241, 241);
+}
+h1{
+    font-size: 4em;
+}
+p{
+    font-size: 2em;
+    margin: 10px;
+}
+#number{
+    width: 140px;
+    height: 40px;
+    font-size: 2em;
+    padding: 0px 10px;
+    border-radius: 35%;
+}
+button{
+    width: 120px;
+    height: 40px;
+    font-size: 1.5em;
+    background-color: rgb(101, 159, 209);
+    border-radius: 35%;
+
+}
+.circle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: rgb(240, 120, 226);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+    text-align: center;
+    background-color: rgb(239, 185, 235);
+}
+.square{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: rgb(55, 64, 2);
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    text-align: center;
+    background-color: rgb(174, 143, 231);
+
+}
+.rectangle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: rgb(8, 170, 22);
+    height: 50px;
+    width: 80px;
+    margin: 10px;
+    text-align: center;
+    background-color: rgb(165, 244, 165);
+}
+.triangle{
+        width: 0;
+        height: 0;
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent;
+        border-bottom: 50px solid #555;
+    }
+.oval{
+        height: 50px;
+        width: 100px;
+        background-color: #555;
+        border-radius: 50%;
+      }
+
+.parallelogram {
+        width: 100px;
+        height: 50px;
+        transform: skew(20deg);
+        background: #555;
+    }
+#box{
+    display: flex;
+    flex-wrap: wrap;
+}
